@@ -1,5 +1,6 @@
 # Azure Services Training (Developer)
-1. Starting with Azure
+
+- Starting with Azure
   - Tour of the Azure Portal   
   - Resources and Resource Groups
   - Creating resources
