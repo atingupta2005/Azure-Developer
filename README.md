@@ -1,5 +1,4 @@
 # Azure Services Training (Developer)
-
 1. Starting with Azure
   - Tour of the Azure Portal   
   - Resources and Resource Groups
@@ -7,7 +6,6 @@
   - Monitoring your costs in Azure
   - The Azure command line interface
   - Setting up PowerShell
-
 1. Develop Azure compute solutions
   - The Virtual Machine Service
   - Deploying a virtual machine
@@ -25,14 +23,12 @@
   - Deploying nginx on the Kubernetes cluster
   - What is a service principal
   - Azure Kubernetes and Azure Container registry
-
 1. Azure CDN
   - What is a content delivery network on Azure?
   - Create an Azure CDN profile and endpoint
   - Add Azure CDN to an Azure App Service web app
   - Add a custom domain to your endpoint
   - Set Azure CDN caching rules
-
 1. Develop Azure compute solutions
   - Azure Web App Service
   - Azure App Service Plan
@@ -52,7 +48,6 @@
   - Azure Functions - Using normal classes
   - Azure Functions - Timer trigger
   - Azure Durable Functions
-
 1. Develop for Azure Storage
   - What are storage accounts
   - Azure storage accounts - service types
@@ -106,7 +101,6 @@
   - Consistency Level - Setting the level
   - Azure CLI commands for Azure Cosmos DB
   - Azure Cosmos DB - Table API
-
 1. Implement Azure Security
   - What is Azure AD
   - Quick look at Azure AD users
@@ -133,7 +127,6 @@
   - Azure Key vault - Encryption keys
   - Azure VM Disk Encryption
   - Managed Service Identity
-
 1. Monitor, troubleshoot, and optimize solutions
   - Azure Monitor
   - Azure Monitor - Azure CLI
@@ -156,7 +149,6 @@
   - Azure Content Delivery Network caching - Query strings
   - Azure Front Door Service
   - Transient faults
-
 1. Connect to and consume Azure and third-party services
   - What is the Azure Service Bus
   - Azure Service Bus
@@ -198,7 +190,6 @@
   - Azure Logic Apps - Azure Functions
   - Azure Logic Apps - Azure Blob Storage
   - Azure Notification Hubs
-
 1. Azure Service Fabric
   - Overview
   - Service Fabric managed clusters
