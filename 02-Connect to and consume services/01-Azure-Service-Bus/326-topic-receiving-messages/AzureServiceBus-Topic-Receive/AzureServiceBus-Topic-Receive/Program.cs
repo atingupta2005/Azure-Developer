@@ -5,7 +5,7 @@ namespace AzureServiceBus_Topic_Receive
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace10001.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=O09eNzn9l36tTg6ifZZFGoaTWP2QbY/KqNC3wRZJXcA=;EntityPath=apptopic";
+        private static string connection_string = "Endpoint=sb://atinappnamespace1000.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=ck0U0Zvj/nHqTMSVIKvOF1KBhnm1Hnlcc8IjNGGmp0g=;EntityPath=apptopic";
         private static string topic_name = "apptopic";
         private static string subscription_name = "SubscriptionA";
         static void Main(string[] args)

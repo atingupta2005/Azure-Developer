@@ -6,7 +6,7 @@ namespace AzureServiceQueue
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace1000.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=etq91anpi+rfdV1QX2unDsyBBeucxdj7hC2n7pedncc=;EntityPath=appqueue";
+        private static string connection_string = "Endpoint=sb://atinappnamespace1000.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=CEdXZgkSGyBWWonlfs78wD6ruGOazl7sa5QGkeWSQYk=;EntityPath=appqueue";
         private static string queue_name = "appqueue";
 
         static void Main(string[] args)

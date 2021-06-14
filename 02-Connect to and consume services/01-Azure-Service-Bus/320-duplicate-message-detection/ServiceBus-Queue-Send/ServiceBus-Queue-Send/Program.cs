@@ -6,7 +6,7 @@ namespace ServiceBus_Queue_Send
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace1000.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=MC4q4I2FkP15nxwJTOQAUN0aA6RmWMdCyJNZ6azwWI0=;EntityPath=newqueue";
+        private static string connection_string = "Endpoint=sb://atinappnamespace1000.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=d4dQJWz9JMGRGpmafGZlmOQITouxTXqmMe4g98hPjGs=;EntityPath=newqueue";
         private static string queue_name= "newqueue";
         static void Main(string[] args)
         {

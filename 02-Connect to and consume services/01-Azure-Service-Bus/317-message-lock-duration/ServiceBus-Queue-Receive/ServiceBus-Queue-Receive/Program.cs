@@ -6,7 +6,7 @@ namespace ServiceBus_Queue_Receive
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace10001.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=mNV94Pg3soW+lbpZQsbq4Fbwt5wIjYa2bZcyEvWYuOg=;EntityPath=appqueue";
+        private static string connection_string = "Endpoint=sb://atinappnamespace1000.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=CEdXZgkSGyBWWonlfs78wD6ruGOazl7sa5QGkeWSQYk=;EntityPath=appqueue";
         private static string queue_name = "appqueue";
         static void Main(string[] args)
         {

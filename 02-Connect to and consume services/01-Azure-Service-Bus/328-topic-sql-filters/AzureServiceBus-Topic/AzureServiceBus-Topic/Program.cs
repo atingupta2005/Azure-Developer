@@ -6,7 +6,7 @@ namespace AzureServiceBus_Topic
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace10001.servicebus.windows.net/;SharedAccessKeyName=Send;SharedAccessKey=uwdqKaGZBPXa7ekx4GuEhcNzrb56YM2vR5YzxwJj/E0=;EntityPath=apptopic";
+        private static string connection_string = "Endpoint=sb://atinappnamespace1000.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=ck0U0Zvj/nHqTMSVIKvOF1KBhnm1Hnlcc8IjNGGmp0g=;EntityPath=apptopic";
         private static string topic_name = "apptopic";
 
         static void Main(string[] args)
