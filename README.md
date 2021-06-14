@@ -31,7 +31,7 @@
     - Azure Event Grid - Service Bus Handler
     - Azure Event Grid - Webhook
     - What are Azure Event Hubs?
-    - Azure Event Hubs Architecture    - Azure Event Hubs
+    - Azure Event Hubs Architecture
     - Azure Event Hub Components
     - Azure Event Hub - Working with Partitions - .Net
     - Azure Event Hub - Reading from an Offset
@@ -45,46 +45,47 @@
     - Azure API Management - Policy - Outbound Rule
     - Azure API Management - OpenAPI Specification
     - Azure API Management Overview
-    - Azure Logic Apps
     - Azure Logic Apps - Azure Functions
     - Azure Logic Apps - Azure Blob Storage
     - Azure Notification Hubs
 
 ## Day 3 & Day 4
 1. Develop Azure compute solutions
-    - Azure Web App Service
-    - Azure App Service Plan
-    - Azure Web App - Linux App Service Plan
-    - Azure Web App - Docker container
-    - Azure Web Apps - App Service Logs
-    - Azure Web App - Publishing from GitHub
-    - Azure Web App - Custom domains
-    - Azure Web App - SSL
-    - Azure Web App - CORS
-    - Azure Web Apps - Deployment Slots
-    - Azure App Service Plan - Linux
-    - What are Azure Functions?
-    - Creating a Function App
-    - Understanding the Azure Function code
-    - The use of Azure Functions
-    - Azure Functions - Using normal classes
-    - Azure Functions - Timer trigger
-    - Azure Durable Functions1. Develop for Azure Storage
-    - What are storage accounts
-    - Azure storage accounts - service types
-    - Creating a storage account
-    - Working with the BLOB service
-    - Using Azure Storage Explorer
-    - Using Access Keys
-    - Azure Storage Accounts - Azure CLI
-    - AzCopy tool
-    - Azure Blob storage - .Net
-    - Azure Blob properties and metadata
-    - Shared Access Signatures
-    - Storage Accounts - Access tiers
-    - Storage Accounts - Blob snapshots
-    - Blob lease
-    - Storage Accounts - Soft Delete
+      - Azure Web App Service
+        - Azure App Service Plan
+        - Azure Web App - Linux App Service Plan
+        - Azure Web App - Docker container
+        - Azure Web Apps - App Service Logs
+        - Azure Web App - Publishing from GitHub
+        - Azure Web App - Custom domains
+        - Azure Web App - SSL
+        - Azure Web App - CORS
+        - Azure Web Apps - Deployment Slots
+        - Azure App Service Plan - Linux
+    - Azure Functions
+        - What are Azure Functions?
+        - Creating a Function App
+        - Understanding the Azure Function code
+        - The use of Azure Functions
+        - Azure Functions - Using normal classes
+        - Azure Functions - Timer trigger
+        - Azure Durable Functions
+    - Develop for Azure Storage
+        - What are storage accounts
+        - Azure storage accounts - service types
+        - Creating a storage account
+        - Working with the BLOB service
+        - Using Azure Storage Explorer
+        - Using Access Keys
+        - Azure Storage Accounts - Azure CLI
+        - AzCopy tool
+        - Azure Blob storage - .Net
+        - Azure Blob properties and metadata
+        - Shared Access Signatures
+        - Storage Accounts - Access tiers
+        - Storage Accounts - Blob snapshots
+        - Blob lease
+        - Storage Accounts - Soft Delete
 
 ## Day 5 & Day 6
 1. Implement Azure Security
