@@ -11,7 +11,7 @@ namespace ServiceBus_Queue_Receive
         {
             ServiceBusClient _client = new ServiceBusClient(connection_string);
 
-            ServiceBusReceiver _receiver = _client.CreateReceiver(queue_name,new ServiceBusReceiverOptions() {ReceiveMode= ServiceBusReceiveMode.PeekLock });
+            ServiceBusReceiver _receiver = _client.CreateReceiver(queue_name,new ServiceBusReceiverOptions() {ReceiveMode= ServiceBusReceiveMode.PeekLock , PrefetchCount = 10});
 
             ServiceBusReceivedMessage _message= _receiver.ReceiveMessageAsync().GetAwaiter().GetResult();
 

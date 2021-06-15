@@ -13,7 +13,11 @@ namespace ServiceBus_Queue_Receive
         {
             ServiceBusClient _client = new ServiceBusClient(connection_string);
 
+            
+
             ServiceBusReceiver _receiver = _client.CreateReceiver(queue_name,new ServiceBusReceiverOptions() {ReceiveMode= ServiceBusReceiveMode.ReceiveAndDelete });
+
+            
 
             var _messages =  _receiver.ReceiveMessagesAsync(2);
 
