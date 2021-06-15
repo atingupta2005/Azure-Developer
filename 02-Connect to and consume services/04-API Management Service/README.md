@@ -64,6 +64,15 @@
     - An easier way to import the API
     - We can use Library in our C# Project - Swashbuckle.AspNetCore
     - Modify the code so that Swagger Documentation can be generated
+      - In Startup class\ConfigureServices, add below line:
+        ```
+        services.AddSwaggerGen();
+        ```
+      - In Configure method add below lines of code:
+      ```
+      app.UseSwagger();
+      app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Course v1"));
+      ```
     - Run Project
     - Specify URL - /swagger
     - Notice documentation
