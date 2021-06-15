@@ -7,10 +7,17 @@
   - Using Access Keys
   - Azure Storage Accounts - Azure CLI
   - AzCopy tool
+    - Refer - [AZCopy.md](AZCopy.md)
+
   - Azure Blob storage - .Net
   - Azure Blob properties and metadata
+    - Refer:
+        - 156-properties-and-metadata
+        - 157-working-with-metadata
   - Shared Access Signatures
   - Storage Accounts - Access tiers
   - Storage Accounts - Blob snapshots
   - Blob lease
+    - Refer:
+      - 161-working-with-lease
   - Storage Accounts - Soft Delete
