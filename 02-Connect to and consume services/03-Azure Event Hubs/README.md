@@ -5,3 +5,4 @@
   - Azure Event Hub - Working with Partitions - .Net
   - Azure Event Hub - Reading from an Offset
   - Azure Event Hub - Event Processor
+    - Create storage account and container named- eventhub
