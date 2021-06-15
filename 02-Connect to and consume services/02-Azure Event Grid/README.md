@@ -32,9 +32,8 @@
     - Create a HTTP trigger azure function which will act as a webhook to receive the event
     - Need to do a handshake between the function and the azure event grid
     - This is to confirm that the function / webhook is owned by you
-    - Create an HTTP Triggered function
+    - Create an HTTP Triggered function. Can Publish from Visual Studio - 348-using-an-http-endpoint
     - Create Event Subscription in Azure Storage Account
     - Endpoint Type: Webhook
     - Select Endpoint: Specify HTTP URL of the function
-    - It will throw Handshake error
-    - To resolve it we need to take the code. Refer the code - 348-azure-event-grid-using-an-http-endpoint.zip
+    - Notice that it does hand shake
