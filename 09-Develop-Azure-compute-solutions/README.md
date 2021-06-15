@@ -1,0 +1,17 @@
+# Develop Azure compute solutions
+- The Virtual Machine Service
+- Deploying a virtual machine
+- Connecting to the Virtual Machine
+- Azure Resource Manager Templates
+- Primer on Docker Containers
+- Understanding on how we deployed the Docker container
+- Deploying a .Net core application onto a Linux VM
+- Containerizing a .Net app
+- Azure Container Registry
+- Azure Container Instances
+- What is Kubernetes and Azure Kubernetes?
+- Creating a Kubernetes cluster
+- Understanding of application deployment to a Kubernetes cluster
+- Deploying nginx on the Kubernetes cluster
+- What is a service principal?
+- Azure Kubernetes and Azure Container registry

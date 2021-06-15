@@ -1,0 +1,25 @@
+# Implement Azure Security
+- What is Azure AD
+- Quick look at Azure AD users
+- Role Based Access Control
+- Primer to OAuth and OpenID Connect - History of Authentication
+- Primer to OAuth and OpenID Connect - Identity Provider
+- What is OAuth?
+- OAuth 2.0 Authorization Code Flow
+- OAuth 2.0 Implicit Flow
+- OAuth 2.0 - Overview
+- OAuth with Azure AD - Overview
+- Quick Look into OAuth when logging into Azure
+- OAuth 2.0 for ASP.Net Core
+- The Access Tokens
+- OAuth 2.0 - Accessing Blob storage
+- Azure AD - Multi-Factor Authentication
+- OpenID Connect
+- Getting group claims
+- Azure Web Apps - Azure AD Authentication
+- What is the Azure Key Vault Service
+- Azure Key Vault - What is a service principal
+- Azure Key vault - Secrets
+- Azure Key vault - Encryption keys
+- Azure VM Disk Encryption
+- Managed Service Identity

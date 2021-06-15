@@ -1,3 +1,18 @@
 # Queries
 
 1. Why activate for few VMs and not activated for few VMs?
+
+- Alert when queue is reached to max size
+
+- Check msg is delivered to DLQ if max del count is reached
+Every message in a Service Bus queue or subscription maintains a count of how many times that message has been received. The DeliveryCount property of the message starts at zero, and then increments by one each time a receiving application receives the message.
+
+When a message is received from a queue by an application using the peek-lock receive mode the receiving application can perform one of the following operations.
+
+
+
+- Any option to truncate
+-
+
+
+What is Scheduled Enqueue Time
