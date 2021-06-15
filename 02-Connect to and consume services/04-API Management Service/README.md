@@ -7,7 +7,7 @@
   - Create a API Web APP
     - Reference: 366-building-the-web-api-part-1-WebApi
     - Create an storage account to store data - courses.json
-    - Create container and upload - courses.json
+    - Create container named - data and upload - courses.json
     - Add connection string to storage account in CourseService.cs
     - Run App in browser
     - Visit <url>/api/Course
@@ -15,7 +15,6 @@
     - Once publish is done visit - <url>/api/Course
 
   - Azure API Management - Setting up the API
-    - Create a new web app - .Net Core 3.1
     - Open APIs from API Management Service
     - Delete EchoAPI
     - Add Blank API
