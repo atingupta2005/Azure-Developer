@@ -10,9 +10,9 @@ namespace AzureEventHub_Processor
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace1000.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=7Ud19ItrlKvE0t7vgJemUv/lfpLzXtdwqRkt2VWcTc0=;EntityPath=apphub";
+        private static string connection_string = "Endpoint=sb://appnamespace1000atin.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=xLSZANy0n8hPxwQByNTPSFVtN/mEZj4mxM0qTVOpnXk=;EntityPath=apphub";
         private static string consumer_group = "$Default";
-        private static string storage_account_connection = "DefaultEndpointsProtocol=https;AccountName=appstore2000;AccountKey=8pBdEmCXm/Gv8iZ1LoC0+SZVkzWSq81C3/Quzr9rYk+xigMs4t5mBYC08cptZnR4UyLCHYLlamVfo8IV99GvbA==;EndpointSuffix=core.windows.net";
+        private static string storage_account_connection = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=x+dLw3IV8s/WgdNomADXFhS9LPphZ/8RjupB/VxvtSwTf3SQojQa1i3YQPlRzlNX6c2b4t45ZEu+Dxb3PJVlLw==;EndpointSuffix=core.windows.net";
         private static string container_name = "eventhub";
         static async Task Main(string[] args)
         {

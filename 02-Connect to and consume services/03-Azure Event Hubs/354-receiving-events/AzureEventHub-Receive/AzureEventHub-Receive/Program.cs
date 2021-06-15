@@ -7,7 +7,7 @@ namespace AzureEventHub_Receive
 {
     class Program
     {
-        private static string connection_string = "Endpoint=sb://appnamespace1000.servicebus.windows.net/;SharedAccessKeyName=Listen;SharedAccessKey=7Ud19ItrlKvE0t7vgJemUv/lfpLzXtdwqRkt2VWcTc0=;EntityPath=apphub";
+        private static string connection_string = "Endpoint=sb://appnamespace1000atin.servicebus.windows.net/;SharedAccessKeyName=all;SharedAccessKey=xLSZANy0n8hPxwQByNTPSFVtN/mEZj4mxM0qTVOpnXk=;EntityPath=apphub";
         private static string consumer_group="$Default";
         static async Task Main(string[] args)
         {
