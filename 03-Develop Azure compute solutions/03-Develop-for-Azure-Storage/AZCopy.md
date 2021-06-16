@@ -41,8 +41,9 @@ azcopy copy "newdir/*" "https://saatin.blob.core.windows.net/data?sv=2020-02-10&
 azcopy copy --recursive "https://saatin.blob.core.windows.net/data/newdir/Program.cs?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-06-16T08:58:33Z&st=2021-06-16T00:58:33Z&spr=https&sig=A%2FOQJ9i2fmsgTP3vVm8ajcMH3J%2F98ulQkvE9GlKWBA8%3D" "Program.cs"
 ```
 
+https://saatindest.blob.core.windows.net/data?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-06-16T09:20:17Z&st=2021-06-16T01:20:17Z&spr=https&sig=4d0wBrLM6o09y8Klqd%2BO0WjQOi3WnvauQbP%2FQvJi4I4%3D
 
 1. To copy data between two storage accounts, use the following command
 ```
-azcopy copy "https://saatin.blob.core.windows.net/data?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-06-16T08:58:33Z&st=2021-06-16T00:58:33Z&spr=https&sig=A%2FOQJ9i2fmsgTP3vVm8ajcMH3J%2F98ulQkvE9GlKWBA8%3D" "https://azcopydestination1000.blob.core.windows.net/data?sv=2020-02-10&ss=b&srt=sco&sp=rwlac&se=2021-04-12T22:26:24Z&st=2021-04-12T14:26:24Z&spr=https&sig=TMv5LmpR0RKwpg%2B8F19Q1aLNlKUyn36%2B0B5qqu5fGok%3D" --recursive
+azcopy copy "https://saatin.blob.core.windows.net/data?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-06-16T08:58:33Z&st=2021-06-16T00:58:33Z&spr=https&sig=A%2FOQJ9i2fmsgTP3vVm8ajcMH3J%2F98ulQkvE9GlKWBA8%3D" "https://saatindest.blob.core.windows.net/data?sv=2020-02-10&ss=bfqt&srt=sco&sp=rwdlacuptfx&se=2021-06-16T09:20:17Z&st=2021-06-16T01:20:17Z&spr=https&sig=4d0wBrLM6o09y8Klqd%2BO0WjQOi3WnvauQbP%2FQvJi4I4%3D" --recursive
 ```

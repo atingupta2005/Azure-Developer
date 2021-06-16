@@ -5,4 +5,3 @@
   - The use of Azure Functions
   - Azure Functions - Using normal classes
   - Azure Functions - Timer trigger
-  - Azure Durable Functions
