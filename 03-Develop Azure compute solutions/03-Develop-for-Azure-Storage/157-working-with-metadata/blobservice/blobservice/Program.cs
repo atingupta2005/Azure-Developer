@@ -7,8 +7,8 @@ namespace blobservice
 {
     class Program
     {
-        private static string _container_name = "data";
-        private static string _connection_string = "DefaultEndpointsProtocol=https;AccountName=appstore2000;AccountKey=viTfT8x3Zd3KPyY4NNaKHWH1J5j0ROxMn+gqh+j93SHfSDWx7ultVdqVzHCHLvz/p0NfMvyYlfqlG4YuOqP72w==;EndpointSuffix=core.windows.net";
+        private static string _container_name = "demo";
+        private static string _connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=CfbGjDha0VmJmFualL8ZBbf/CuAAxTIHtderBPmjNi2OVJMSJTp+EFq8NY4/j0TPBbV33gvrD4xgPDkc+JvNOQ==;EndpointSuffix=core.windows.net";
         private static string _blob_name = "Program.cs";
         private static string _location = "C:\\tmp\\Program.cs";
         static void Main(string[] args)

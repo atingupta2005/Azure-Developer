@@ -13,7 +13,7 @@ namespace AzureServiceBus_Topic_Receive
             ServiceBusClient _client = new ServiceBusClient(connection_string);
             ServiceBusReceiver _receiver = _client.CreateReceiver(topic_name, subscription_name, new ServiceBusReceiverOptions() { ReceiveMode = ServiceBusReceiveMode.ReceiveAndDelete });
 
-            var _messages = _receiver.ReceiveMessagesAsync(2);
+            var _messages = _receiver.ReceiveMessagesAsync(100);
 
             foreach (var _message in _messages.Result)
             {

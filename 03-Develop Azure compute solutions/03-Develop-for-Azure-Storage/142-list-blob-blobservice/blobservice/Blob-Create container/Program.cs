@@ -7,7 +7,7 @@ namespace Blob_Create_container
     class Program
     {
         // Ensure to change the connection string and the container name
-        private static string blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=appstore100011;AccountKey=/4X2MRoELqbi7vSjRouzu6rvA/kvmWMMiwxkgolLZGKuyZbTYYB3Mh/8RMWF7THwNw3sMvJtexEr6DwLn81wHQ==;EndpointSuffix=core.windows.net";
+        private static string blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=CfbGjDha0VmJmFualL8ZBbf/CuAAxTIHtderBPmjNi2OVJMSJTp+EFq8NY4/j0TPBbV33gvrD4xgPDkc+JvNOQ==;EndpointSuffix=core.windows.net";
         private static string container_name = "demo";
           static void Main(string[] args)
         {
