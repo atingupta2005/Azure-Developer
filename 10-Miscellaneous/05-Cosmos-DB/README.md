@@ -1,25 +1,4 @@
 # Miscellaneous
-## Storage Accounts
-- ARM Templates - Storage Accounts
-- Azure Table Storage
-- Azure Table Storage - Partition and Row Key
-- Azure Storage queue
-
-## Azure Web App
-- Azure Web App - Azure SQL Database
-- Using Azure Web App - Connecting strings
-
-## Azure Functions
-- Azure Functions - Queue binding
-- Azure Functions - Queue and Table binding
-- Azure Functions - Multiple Output bindings - Introduction to Azure SQL Database
-- Azure Functions - Azure SQL Database
-
-## Azure Container Instances
-- Azure Container Instances - Container Groups
-- Azure Container Instances - Container Groups - Container Registry
-- Azure Container Instances - Working with secrets
-
 ## Cosmos DB
 - Quick primer on NoSQL Databases
 - Introduction to Cosmos DB
