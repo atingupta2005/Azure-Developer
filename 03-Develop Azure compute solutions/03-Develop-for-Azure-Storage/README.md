@@ -1,5 +1,5 @@
 # Develop for Azure Storage
-  - What are storage accounts
+  - What are storage accounts?
   - Azure storage accounts - service types
   - Creating a storage account
   - Working with the BLOB service

@@ -38,7 +38,7 @@
         - Change the URL of API Web app in demo.html
         - API Consumer
       - Publish to Azure
-    - One publish is done:
+    - Once publish is done:
       - Take URL of Web App Consumer
       - Open Chrome\Developer Tools
       - Open the URL
