@@ -17,7 +17,7 @@ namespace WebApi.Services
 
         
         private string storage_account_connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=x+dLw3IV8s/WgdNomADXFhS9LPphZ/8RjupB/VxvtSwTf3SQojQa1i3YQPlRzlNX6c2b4t45ZEu+Dxb3PJVlLw==;EndpointSuffix=core.windows.net";
-      
+        
         
         public IEnumerable<Course> GetCourses()
         {

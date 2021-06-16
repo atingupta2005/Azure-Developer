@@ -1,0 +1,16 @@
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\WebApi.exe
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\WebApi.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\WebApi.deps.json
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\WebApi.runtimeconfig.json
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\WebApi.pdb
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Core.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Storage.Blobs.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Azure.Storage.Common.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Azure-Developer\02-Connect to and consume services\04-API Management Service\379-building-the-web-api - swagger\WebApi\WebApi\obj\Release\netcoreapp3.1\PubTmp\Out\System.Memory.Data.dll

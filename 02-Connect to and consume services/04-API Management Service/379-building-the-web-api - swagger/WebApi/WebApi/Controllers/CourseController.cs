@@ -31,7 +31,7 @@ namespace WebApi.Controllers
             return Ok(courseservice.GetCourse(id));
         }
 
-            [HttpPost]
+         [HttpPost]
         public IActionResult AddCourse(Course course)
         {
             courseservice.AddCourse(course);
