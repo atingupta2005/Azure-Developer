@@ -119,22 +119,20 @@
     - Auto-scaling Azure Web Apps
     - Auto scaling a web app
     - Auto scaling a web app based on Queue storage
+1. Application Insights
     - What is Application Insights
     - Application Setup for Application Insights
     - Application Insights - Metrics and Performance
     - Application Insights - Other features
     - Application Insights - Availability Tests
     - Application Insights - Tracking User Id
+1. Azure Cache for Redis
     - What is Azure Cache for Redis
-    - Azure Cache for Redis
     - Azure Cache for Redis - ASP.Net Core
     - Azure Redis Cache - Data Invalidation
     - Azure Redis Cache - StackExchange package
-    - Azure Content Delivery Network - Introduction
-    - Azure Content Delivery Network Cache
-    - Azure Content Delivery Network caching - Query strings
-    - Azure Front Door Service
-    - Transient faults
+1. Azure Front Door Service
+1. Transient faults
 
 ## Day 7 & Day 8
 1. Azure Service Fabric
@@ -149,6 +147,9 @@
     - Add Azure CDN to an Azure App Service web app
     - Add a custom domain to your endpoint
     - Set Azure CDN caching rules
+    - Azure Content Delivery Network - Introduction
+    - Azure Content Delivery Network Cache
+    - Azure Content Delivery Network caching - Query strings
 
 ## Day 9 & Day 10
 1. Develop Azure compute solutions

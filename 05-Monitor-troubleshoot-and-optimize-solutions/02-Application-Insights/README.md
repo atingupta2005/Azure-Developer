@@ -4,7 +4,6 @@
   - Page views and load Performance
   - User and session count
 - Application Setup for Application Insights
-  - Refer: [269-Sqlapp](269-Sqlapp)
 - Application Insights - Metrics and Performance
 - Application Insights - Other features
 - Application Insights - Availability Tests
