@@ -4,33 +4,24 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Sqlapp.Models;
+using System.Configuration;
 
 namespace Sqlapp.Services
 {
     public class CourseService
-    {
-        // Ensure to change the below variables to reflect the connection details for your database
-        private static string db_source = "dbserver10001.database.windows.net";
-        private static string db_user = "demousr";
-        private static string db_password = "Azure@123";
-        private static string db_database = "appdb";
+    {        
 
-        private SqlConnection GetConnection()
+        private SqlConnection GetConnection(string _connection_string)
         {
             // Here we are creating the SQL connection
-            var _builder = new SqlConnectionStringBuilder();
-            _builder.DataSource = db_source;
-            _builder.UserID = db_user;
-            _builder.Password = db_password;
-            _builder.InitialCatalog = db_database;
-            return new SqlConnection(_builder.ConnectionString);
+            return new SqlConnection(_connection_string);
         }
 
-        public IEnumerable<Course> GetCourses()
+        public IEnumerable<Course> GetCourses(string _connection_string)
         {
             List<Course> _lst = new List<Course>();
             string _statement = "SELECT CourseID,CourseName,rating from Course";
-            SqlConnection _connection = GetConnection();
+            SqlConnection _connection = GetConnection(_connection_string);
             // Let's open the connection
             _connection.Open();
             // We then construct the statement of getting the data from the Course table
