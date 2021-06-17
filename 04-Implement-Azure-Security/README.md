@@ -12,6 +12,11 @@
 - Azure Key vault - Secrets
 - Azure Key vault - Encryption keys
 - Azure VM Disk Encryption
+  - Create encryption key in key vault
+  - Enable Access policy in key vault - "Azure Disk Encryption for volume encryption"
+  - Open VM\Disks\Additional Settings
+  - Disks to Encrypt: OS and data disk
+  - Select key from key vault
 - Azure Key Vault Secrets - Using Application Objects
   - Refer
     - 227-azure-key-vault-secrets-using-application-object
