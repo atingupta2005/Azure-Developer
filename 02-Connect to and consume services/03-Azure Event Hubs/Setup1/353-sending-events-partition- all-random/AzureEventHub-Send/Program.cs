@@ -14,7 +14,7 @@ namespace AzureEventHub_Send
 
             EventHubProducerClient _client = new EventHubProducerClient(connection_string);
 
-            for (int i=1; i<=100000; i++)
+            for (int i=1; i<=2; i++)
             {
 
                 EventDataBatch _batch = _client.CreateBatchAsync().GetAwaiter().GetResult();

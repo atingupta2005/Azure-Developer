@@ -3174,11 +3174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-2\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
+      "projectUniqueName": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-1\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
       "projectName": "AzureEventHub-Send",
-      "projectPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-2\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
+      "projectPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-1\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
       "packagesPath": "C:\\Users\\atingupta2005\\.nuget\\packages\\",
-      "outputPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-2\\AzureEventHub-Send\\obj\\",
+      "outputPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-1\\AzureEventHub-Send\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vHYyiNBd3d8uLD76Aofna4TSaPYMj2MQfvSNjl/sbuE/e7AfNmG3wpnUmfd1uC3dzQR0HVILLZEdfKMp/XIblA==",
+  "dgSpecHash": "T+Y1yblZJAxCdqpfQiw6E0/+4nmkgvzl9B6r9pjmbQBUECjkMAjdUSRNHd0zm8b+ObkZwu2d08KWx0PsCLA5Gw==",
   "success": true,
-  "projectFilePath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-2\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
+  "projectFilePath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\353-sending-events-partition-1\\AzureEventHub-Send\\AzureEventHub-Send.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atingupta2005\\.nuget\\packages\\azure.core\\1.12.0\\azure.core.1.12.0.nupkg.sha512",
     "C:\\Users\\atingupta2005\\.nuget\\packages\\azure.messaging.eventhubs\\5.4.0\\azure.messaging.eventhubs.5.4.0.nupkg.sha512",

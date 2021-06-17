@@ -3174,11 +3174,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
+      "projectUniqueName": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1 - app1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
       "projectName": "AzureEventHub-Receive",
-      "projectPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
+      "projectPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1 - app1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
       "packagesPath": "C:\\Users\\atingupta2005\\.nuget\\packages\\",
-      "outputPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1\\AzureEventHub-Receive\\AzureEventHub-Receive\\obj\\",
+      "outputPath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1 - app1\\AzureEventHub-Receive\\AzureEventHub-Receive\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

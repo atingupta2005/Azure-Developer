@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cQvUB8Rq7un8OR+oGrfMbgMLFBqoWHEIwk1mwLafmFH5MA2loioxKkoGXttAb20O5dpdURJcJ8SCNAzByvx3uQ==",
+  "dgSpecHash": "ZwVl92bOcaXHtFK43OzSos0xOWVojrDDwtIoCjz7B70/qliIKyG/84hfcAlVGISTD7B/jBYqip08711dHahYoQ==",
   "success": true,
-  "projectFilePath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
+  "projectFilePath": "C:\\Azure-Developer\\02-Connect to and consume services\\03-Azure Event Hubs\\Setup1\\359-reading-from-specific-partition-1 - app1\\AzureEventHub-Receive\\AzureEventHub-Receive\\AzureEventHub-Receive.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\atingupta2005\\.nuget\\packages\\azure.core\\1.12.0\\azure.core.1.12.0.nupkg.sha512",
     "C:\\Users\\atingupta2005\\.nuget\\packages\\azure.messaging.eventhubs\\5.4.0\\azure.messaging.eventhubs.5.4.0.nupkg.sha512",
