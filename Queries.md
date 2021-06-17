@@ -19,3 +19,4 @@ When a message is received from a queue by an application using the peek-lock re
 
 
 What is Scheduled Enqueue Time
+ - The scheduled enqueue time in UTC. This value is for delayed message sending. It is utilized to delay messages sending to a specific time in the future.
