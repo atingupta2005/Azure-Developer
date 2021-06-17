@@ -36,6 +36,7 @@ namespace AzureServiceQueue
             
             String strFromFile = File.ReadAllText("c:\\laureate.json");
             Console.WriteLine(strFromFile);
+            strFromFile = strFromFile.Substring(0, 262000);
 
             ServiceBusMessage _messagelarge = new ServiceBusMessage(strFromFile);
             _messagelarge.ContentType = "application/json";
