@@ -25,7 +25,7 @@ namespace Sqlapp.Services
 
         private static Lazy<ConnectionMultiplexer> CreateConnection()
         {
-            string cache_connectionstring = "apprediscache1000.redis.cache.windows.net:6380,password=Pac6S78gNliFFFt3Ls0r6+pOgxvobwW5ZC6EEnOwbM8=,ssl=True,abortConnect=False";
+            string cache_connectionstring = "redisatinjune21.redis.cache.windows.net:6380,password=fkfvPRV4q+dc2PcYTI+yTq6lZjE+X89wizuq4l4xPuQ=,ssl=True,abortConnect=False";
             return new Lazy<ConnectionMultiplexer>(() =>
             {
                 return ConnectionMultiplexer.Connect(cache_connectionstring);
@@ -70,7 +70,8 @@ namespace Sqlapp.Services
 
                         _lst.Add(_course);
                     }
-		    var ts = TimeSpan.FromMinutes(_settings.CacheTimeout);
+
+        		    var ts = TimeSpan.FromMinutes(1);
 
                     cache.StringSet("Course", JsonSerializer.Serialize<List<Course>>(_lst), ts);
                 }

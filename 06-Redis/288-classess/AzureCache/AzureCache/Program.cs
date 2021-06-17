@@ -37,7 +37,7 @@ namespace AzureCache
 
         private static Lazy<ConnectionMultiplexer> CreateConnection()
         {
-            string cache_connectionstring = "newcache1000.redis.cache.windows.net:6380,password=lSpWcGeFeXDojdbJZtrMdISlVmyUhsIPDXTaMvZ0m1g=,ssl=True,abortConnect=False";
+            string cache_connectionstring = "redisatinjune21.redis.cache.windows.net:6380,password=fkfvPRV4q+dc2PcYTI+yTq6lZjE+X89wizuq4l4xPuQ=,ssl=True,abortConnect=False";
             return new Lazy<ConnectionMultiplexer>(() =>
             {                
                 return ConnectionMultiplexer.Connect(cache_connectionstring);
