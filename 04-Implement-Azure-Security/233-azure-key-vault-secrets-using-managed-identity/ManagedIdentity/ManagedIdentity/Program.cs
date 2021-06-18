@@ -12,7 +12,7 @@ namespace ManagedIdentity
     class Program
     {
 
-        private static string keyvault_url = "https://appvault1000123.vault.azure.net/";
+        private static string keyvault_url = "https://appkvatinjune21.vault.azure.net/";
         private static string secret_name = "dbpassword";
         static void Main(string[] args)
         {

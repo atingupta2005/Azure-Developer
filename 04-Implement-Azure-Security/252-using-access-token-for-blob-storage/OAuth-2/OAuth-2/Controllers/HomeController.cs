@@ -30,7 +30,7 @@ namespace OAuth_2.Controllers
             string[] scopes = new string[] { "https://storage.azure.com/user_impersonation" };
             
 
-            Uri blobUri = new Uri("https://appstore100001233.blob.core.windows.net/data/commands.txt");
+            Uri blobUri = new Uri("https://saatin.blob.core.windows.net/data/Courses.json");
 
             TokenAcquisitionTokenCredential credential = new TokenAcquisitionTokenCredential(tokenAcquisition);
             BlobClient blobClient = new BlobClient(blobUri, credential);

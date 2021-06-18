@@ -7,10 +7,10 @@ namespace AzureStorageBlob
 {
     class Program
     {
-        private static string storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=appstore100011;AccountKey=fxB+dpL7gvWNQQsKMtlzuSvN2WyyUeREwi+hewplI8ViG2AOFrB4r6x/w00F+Ym20AfExFxICWFzxBgt7LRvrA==;EndpointSuffix=core.windows.net";
+        private static string storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=saatin;AccountKey=CfbGjDha0VmJmFualL8ZBbf/CuAAxTIHtderBPmjNi2OVJMSJTp+EFq8NY4/j0TPBbV33gvrD4xgPDkc+JvNOQ==;EndpointSuffix=core.windows.net";
         private static string container_name = "data";
-        private static string download_path = "C:\\tmp\\sample.txt";
-        private static string blob_name = "sample.txt";
+        private static string download_path = "C:\\tmp\\Program.cs";
+        private static string blob_name = "Program.cs";
         static void Main(string[] args)
         {
             BlobServiceClient _blobServiceClient = new BlobServiceClient(storage_connection_string);

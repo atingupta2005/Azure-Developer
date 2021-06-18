@@ -13,8 +13,8 @@ namespace ManagedIdentity
     class Program
     {
 
-        private static string blob_url = "https://appstore100011.blob.core.windows.net/data/sample.txt";
-        private static string download_path = "C:\\tmp\\sample.txt";
+        private static string blob_url = "https://saatin.blob.core.windows.net/data/ProgramAtin.cs";
+        private static string download_path = "C:\\tmp\\ProgramAtin2.cs";
         static void Main(string[] args)
         {
             

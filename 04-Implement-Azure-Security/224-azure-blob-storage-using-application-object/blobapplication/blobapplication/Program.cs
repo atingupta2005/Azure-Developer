@@ -8,13 +8,13 @@ namespace blobapplication
     {
 
 
-        private static string blob_url = "https://functionstore1000.blob.core.windows.net/data/sample.txt";
-        private static string local_blob = "C:\\data\\sample.txt";
-        private static string blob_name = "sample.txt";
+        private static string blob_url = "https://saatin.blob.core.windows.net/data/data.json";
+        private static string local_blob = "C:\\data\\data.json";
+        
 
-        private static string tenantid = "5f5f1c90-abac-4ebe-88d7-0f3d121f967e";
-        private static string clientid = "d8cf0b94-2d37-4902-8c79-60d426566d8e";
-        private static string clientsecret = "bZ-u6__-aAr~2gz.4jasbs9v2a0ahv5PSo";
+        private static string tenantid = "1aa4911b-3deb-4060-8959-2ed6ec653dad";
+        private static string clientid = "c11e0803-64cb-4937-a0c3-0f8161b879de";
+        private static string clientsecret = "7XM3a2j.t7c~HFzcR_~8D.0-u.wf8xWKs8";
         static void Main(string[] args)
         {
             ClientSecretCredential _client_credential = new ClientSecretCredential(tenantid, clientid, clientsecret);
