@@ -151,7 +151,6 @@
     - Azure Content Delivery Network Cache
     - Azure Content Delivery Network caching - Query strings
 
-## Day 9 & Day 10
 1. Develop Azure compute solutions
     - The Virtual Machine Service
     - Deploying a virtual machine
@@ -167,8 +166,8 @@
     - Creating a Kubernetes cluster
     - Understanding of application deployment to a Kubernetes cluster
     - Deploying nginx on the Kubernetes cluster
-    - What is a service principal
     - Azure Kubernetes and Azure Container registry
+## Day 9 & Day 10
 1. Miscellaneous
     - ARM Templates - Storage Accounts
     - Azure Table Storage
