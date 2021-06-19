@@ -1,0 +1,45 @@
+{
+  "customerid": 1,
+  "customername" : "John",
+  "city" : "Miami"
+}
+
+
+{
+  "customerid": 2,
+  "customername" : "Jane",
+  "city" : "New York",
+  "orders" :[
+  {
+	"orderid" : 1000,
+	"productid" : 100,
+	"quantity" : 2
+  }]
+}
+
+
+{
+  "customerid": 3,
+  "customername" : "Michael",
+  "city" : "Florida",
+  "orders" :[
+  {
+	"orderid" : 1001,
+	"productid" : 200,
+	"quantity" : 2
+  }]
+
+}
+
+
+{
+  "customerid": 4,
+  "customername" : "David",
+  "city" : "New York"
+}
+
+select * from customer.orders c
+
+select * from c in customer.orders where c.orderid=1000
+
+select count(c) from c in customer.orders

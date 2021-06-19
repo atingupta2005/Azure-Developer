@@ -1,0 +1,12 @@
+# Azure Service Fabric
+  - Reference -
+    - https://www.youtube.com/watch?v=v2FJsB0mnrI
+    - https://docs.microsoft.com/en-us/azure/service-fabric/overview-managed-cluster
+- Overview
+  - Streamlines your deployment and cluster management
+  -
+- Service Fabric managed clusters
+- Deploy a Service Fabric managed cluster
+- Scale out a Service Fabric managed cluster
+- Add and remove node types from a Service Fabric managed cluster
+- Deploy an app to a Service Fabric managed cluster
