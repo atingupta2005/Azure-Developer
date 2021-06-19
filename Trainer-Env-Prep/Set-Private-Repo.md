@@ -36,3 +36,9 @@ git remote -v
 git push github-origin master
 git pull; git add *; git commit -am "-"; git push github-origin master
 ```
+
+- Merge the change from master to am1
+```
+git checkout master
+git merge am1
+```
