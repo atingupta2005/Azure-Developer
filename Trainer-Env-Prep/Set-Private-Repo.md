@@ -29,16 +29,23 @@ git checkout master
 
 - Now rename the origin name of public repo so that engineer will not git push private branch to public repo
 ```
-git remote -v
-git remote remove origin
-git remote add github-origin https://github.com/atingupta2005/Azure-Developer.git
-git remote -v
+git remote rename origin github-origin
 git push github-origin master
 git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 
 - Merge the change from master to am1
+- Note: Never do the reverse else private files will be uploaded to public repo as .gitignore will be changed
 ```
-git checkout master
-git merge am1
+git checkout am1
+git merge master
+```
+
+
+- In case we need to remove private files from public repo:
+```
+git rm -r --cached ....
+git add *
+git commit -am "-"
+git push github-origin master
 ```
