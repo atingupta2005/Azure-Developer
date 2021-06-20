@@ -34,19 +34,6 @@ git push github-origin master
 git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 
-<<<<<<< HEAD
-=======
-- Merge the change from master to am1
-- Note: Never do the reverse else private files will be uploaded to public repo as .gitignore will be changed
-```
-git checkout am1
-git merge master
-del .gitignore
-copy .gitignore-gitlab .gitignore
-```
-
->>>>>>> 00095467f7d3b6a22ab75fbda145ba07d9c54003
-
 - In case we need to remove private files from public repo:
 ```
 git rm -r --cached .
