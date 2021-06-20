@@ -39,6 +39,7 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 git checkout am1
 git merge master
+notepad .gitignore
 ```
 
 
