@@ -38,7 +38,6 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 - Note: Never do the reverse else private files will be uploaded to public repo as .gitignore will be changed
 ```
 git checkout am1
-git merge master
 notepad .gitignore
 ```
 
