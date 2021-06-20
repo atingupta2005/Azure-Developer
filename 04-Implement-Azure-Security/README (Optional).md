@@ -1,7 +1,0 @@
-- Getting group claims (Optional)
-- Azure Web Apps - Azure AD Authentication (Optional)
-  - Create new project - ASP.net core web app
-  - Install Package - "Identity.Web"
-  - Open Startup class\ConfigurationServices
-    - Add code for identity
-  -
