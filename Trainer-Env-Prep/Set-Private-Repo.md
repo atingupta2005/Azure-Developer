@@ -46,12 +46,7 @@ git push github-origin master
 - Push to public repo (Github)
 ```
 git checkout master
-<<<<<<< HEAD
 del .gitignore; copy .gitignore-github .gitignore
-=======
-del .gitignore
-copy .gitignore-github .gitignore
->>>>>>> 00095467f7d3b6a22ab75fbda145ba07d9c54003
 git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 
@@ -60,11 +55,6 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 - Push to private repo (Gitlab)
 ```
 git checkout am1
-<<<<<<< HEAD
 del .gitignore; copy .gitignore-gitlab .gitignore
-=======
-del .gitignore
-copy .gitignore-gitlab .gitignore
->>>>>>> 00095467f7d3b6a22ab75fbda145ba07d9c54003
 git pull; git add *; git commit -am "-"; git push gitlab-origin am1
 ```
