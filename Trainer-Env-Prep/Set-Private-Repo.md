@@ -39,14 +39,34 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 git checkout am1
 git merge master
-notepad .gitignore
+del .gitignore
+copy .gitignore-gitlab .gitignore
 ```
 
 
 - In case we need to remove private files from public repo:
 ```
-git rm -r --cached ....
+git rm -r --cached .
 git add *
 git commit -am "-"
 git push github-origin master
+```
+
+
+- Push to public repo (Github)
+```
+git checkout master
+del .gitignore
+copy .gitignore-github .gitignore
+git pull; git add *; git commit -am "-"; git push github-origin master
+```
+
+
+
+- Push to private repo (Gitlab)
+```
+git checkout am1
+del .gitignore
+copy .gitignore-gitlab .gitignore
+git pull; git add *; git commit -am "-"; git push gitlab-origin am1
 ```
