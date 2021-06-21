@@ -24,6 +24,4 @@
   - Open cluster on browser. Open Services and ingress. Click Add. Paste yaml file content
   - Get external IP address and open on browser
   -
-- What is a service principal?
 - Azure Kubernetes and Azure Container registry
--
