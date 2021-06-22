@@ -7,6 +7,7 @@ Note: We have build a simple Dot Not Project and zipped the published folder and
 mkdir core-web-app-docker
 cd core-web-app-docker
 wget https://github.com/atingupta2005/Azure-Devops-AZ-400/raw/master/Module-19-Managing-Containers-using-Docker/1-Dockerize-Dot-Net-app/core-web-app-docker.zip
+sudo apt install -y unzip
 unzip core-web-app-docker.zip
 rm core-web-app-docker.zip
 # Create/Download our Docker file
