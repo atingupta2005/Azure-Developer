@@ -47,7 +47,7 @@ git push github-origin master
 ```
 git checkout master
 del .gitignore; copy .gitignore-github .gitignore
-git pull; git add *; git commit -am "-"; git push github-origin master
+git pull github-origin master; git add *; git commit -am "-"; git push github-origin master
 ```
 
 
@@ -56,5 +56,5 @@ git pull; git add *; git commit -am "-"; git push github-origin master
 ```
 git checkout am1
 del .gitignore; copy .gitignore-gitlab .gitignore
-git pull; git add *; git commit -am "-"; git push gitlab-origin am1
+git pull gitlab-origin am1; git add *; git commit -am "-"; git push gitlab-origin am1
 ```
