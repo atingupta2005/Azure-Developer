@@ -48,6 +48,7 @@
   You control how much personal information you choose to share with websites that accept OpenIDs
 
 ## Using Postman to access Azure Blob
+- Refer: https://www.getpostman.com/collections/cbd4a3b4c7cb8fe7d828
 - Create app object in AAD named - Postman
 - Open app object and copy endpoint - OAuth 2.0 token endpoint (v1)
 - Open Postman tool
@@ -71,7 +72,8 @@
 
 
 ## Using Postman to access Keyvault Secret
-- Create Key Vault - https://kvatinjune21.vault.azure.net/
+- Refer: https://www.getpostman.com/collections/cbd4a3b4c7cb8fe7d828
+- Create Key Vault - https://appkvatinjune21.vault.azure.net/
 - Create secret named - secret
 - Access Policy
   - Allow app object to Get secret
@@ -82,37 +84,11 @@
 - Copy secret URL
 - Also need to append below string in URL
   - ?api-version=7.1
-  - https://kvatinjune21.vault.azure.net/secrets/secret/e1ef3d2829ec41ec96b9b67314ef48ff?api-version=7.1
+  - https://appkvatinjune21.vault.azure.net/secrets/secret/3faab0197b70458391e00d3905504e2b?api-version=7.1
 - Create a new Get Request
 - Paste URL
 - Add header
   - Authorization: Bearer <Paste access token>
   - x-ms-version: 2017-11-09
 
-Click Send
-
-
-## Accessing Graph API using Postman tool
-- Helps to fetch information about users created in AAD
-- Open app object\API Permissions
-- Delegated Permission
--   If user logs in to the application and uses this application object then this app object can use the permissions of the user.
-- Change type of permission to "Application Permission"
-- First delete existing permission having Delegated permission
-- Create a new permission - "Add a permission"
-- Chose "Microsoft Graph"
-- Chose "Application Permissions"
-- Scroll down and select User.Read.All under User section
-- Click Add Permissions
-- Click "Grand Admin Content for Default Directory"
-- Open Postman tool
-- First get access token
-- Change Body
-  - resourse: https://graph.microsoft.com
-- Click Send
-- Copy Access Token
-- Open New Tab and specify Get Request to
-  - https://graph.microsoft.com/v1.0/users
-- Change headers
-  - Authorization: Bearer <Access Token>
 - Click Send
